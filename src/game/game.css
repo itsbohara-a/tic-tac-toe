@@ -1,0 +1,26 @@
+.game {
+  background-color: #eff;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.game .board {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.game .board .box {
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  border: 1px solid rgba(191, 189, 189, 0.503);
+  height: 6rem;
+  width: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.game .board .box:hover {
+  background: #ddd;
+}/*# sourceMappingURL=game.css.map */
